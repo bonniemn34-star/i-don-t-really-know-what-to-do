@@ -1,0 +1,19 @@
+body {
+  background-image: url('https://i.pinimg.com/736x/1d/34/64/1d34646678402237eede9e45614b3ce6.jpge-file.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+   display: flex;
+  flex-direction: column;   /* Stacks text lines vertically */
+  justify-content: center;  /* Aligns the stack vertically in the screen center */
+  align-items: center;      /* Aligns the stack horizontally in the screen center */
+  text-align: center;       /* Forces inside text lines to align to their own center */
+  min-height: 100vh;        /* Extends the alignment zone to the full screen height */
+  margin: 0;                /* Omit default browser padding margins */
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
